@@ -26,9 +26,9 @@ hr {
 }
 
 .full-subtext {
-  color: white;
   font-size: 140%;
   line-height: 1.5em;
+  font-color: #222;
 }
 
 .justify {
@@ -38,4 +38,3 @@ hr {
 .btn-title {
   font-size: 250%;
 }
-
