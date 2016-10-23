@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(210deg, #171853, #000000);
+  background-size: 200% 200%;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  letter-spacing: 125%;
+  color: white;
+}
+
+hr {
+  background-color: white;
+  height: 1px;
+  border: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.full-title {
+  font-size: 600%;
+}
+
+.full-subtext {
+  color: white;
+  font-size: 140%;
+  line-height: 1.5em;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.btn-title {
+  font-size: 250%;
+}
+
