@@ -14,6 +14,13 @@
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
+    <!-- Lodash -->
+    <script src="https://cdn.jsdelivr.net/lodash/4.16.4/lodash.min.js"></script>
+
+    <!-- Why, CSS, Why... ? -->
+    <script src="jquery.matchHeight.js" type="text/javascript"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+
     <!-- Materialize -->
 
     <!-- Compiled and minified CSS -->
@@ -48,40 +55,57 @@
 
       <div class="row">
         <div class="col s4">
-          <div class="card-panel indigo waves-effect waves-light justify">
+          <div id="services-activator" class="card-panel indigo waves-effect waves-light justify same-height activator">
             <h3 class="center">
               <i class="material-icons center medium">business</i>
             </h3>
             <h4 class="btn-title">Services</h4>
-            <span class="white-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt nibh ligula, id ullamcorper est cursus sit amet. Cras aliquam.</span>
+            <p class="white-text">I build software of all kind for people and organisations.</p>
+            <p class="white-text">Full-stack web development, Server programming, Unix administration, Security of Operations?</p>
+            <p class="white-text"><em>I might be the person you are looking for.</em></p>
           </div>
         </div>
         <div class="col s4">
-          <div class="card-panel light-blue waves-effect waves-light justify">
+          <div id="realisations-activator" class="card-panel light-blue waves-effect waves-light justify same-height activator">
             <h3 class="center">
               <i class="material-icons medium">business_center</i>
             </h3>
             <h4 class="btn-title">Realisations</h4>
-            <span class="white-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt nibh ligula, id ullamcorper est cursus sit amet. Cras aliquam.</span>
+            <p class="white-text">I value simplicity and a no-nonsense, direct approach in all that I do.</p>
+            <p class="white-text">Interested in what I did over the last few years, or in seeing a list of things I have built?</p>
+            <p class="white-text"><em>Take a look.</em></p>
           </div>
         </div>
         <div class="col s4">
-          <div class="shadowed card-panel green waves-effect waves-light justify">
+          <div id="contact-activator" class="card-panel green waves-effect waves-light justify same-height activator">
             <h3 class="center">
               <i class="material-icons medium">message</i>
             </h3>
             <h4 class="btn-title">Contact</h4>
-            <span class="white-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt nibh ligula, id ullamcorper est cursus sit amet. Cras aliquam.</span>
+            <p class="white-text">I'm friendly.</p>
+            <p class="white-text"><em>Do you have a business proposal? Or are you interested in discussing technology, philosophy or almost anything else?</em></p>
+            <p class="white-text">Reach me by the following means!</p>
           </div>
         </div>
       </div>
 
       <!-- Contents section -->
 
-      <div>Services</div>
       <hr>
+      <section id="services" class="content white-text">
+        <h3 id="services-anchor">Services</h3>
+      </section>
+      <section id="realisations" class="content white-text">
+        <h3 id="realisations-anchor">Realisations</h3>
+      </section>
+      <section id="contact" class="content white-text">
+        <h3 id="contact-anchor">Contact</h3>
+      </section>
 
-      <!-- Custom Javascript -->
+      <!-- Custom Javascript - scripts, activate! -->
+      <!-- Easter egg -->
+      <script src="konami.js" type="text/javascript"></script>
+
       <script src="behavior.js"></script>
   </body>
 </html>
