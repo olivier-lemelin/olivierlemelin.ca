@@ -1,0 +1,109 @@
+
+/* General style */
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  letter-spacing: 140%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+body {
+  background: #212121;
+  color: #FFFFFF;
+  line-height: 2;
+  font-size: 130%;
+  font-family: 'Raleway', sans-serif;
+}
+
+hr {
+  text-align: center;
+  border: 0;
+}
+
+hr::before {
+  content: "▲";
+}
+
+/* Navbar */
+
+navbar {
+  background: #e8f5e9;
+}
+
+.brand-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  margin-left: 1em;
+}
+
+/* Parallax */
+
+.parallax-container {
+  min-height: 100vh;
+}
+
+.parallax-container.small {
+  min-height: 60vh;
+}
+
+.parallax img {
+  display: block;
+  filter: brightness(0.3);
+}
+
+.subtext {
+  font-family: 'Raleway', sans-serif;
+  font-size: 140%;
+  line-height: 1.5em;
+  font-color: #222;
+}
+
+/* First section */
+
+.hero-title {
+  font-family: 'Cinzel Decorative', cursive;
+  margin-top: 1.75em;
+  font-size: 450%;
+}
+
+/* Text sections */
+
+.text-section {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+/* Triptych */
+
+.triptych p {
+  font-size: 80%;
+}
+
+.triptych i {
+  font-size: 4em;
+}
+
+/* Diptych */
+
+.diptych p {
+  font-size: 80%;
+}
+
+.diptych i {
+  font-size: 4em;
+}
+
+.large-icon {
+  font-size: 4em;
+}
+
+/* Footer */
+
+.small-text {
+  font-size: 50%;
+  color: gray;
+}
+
+
