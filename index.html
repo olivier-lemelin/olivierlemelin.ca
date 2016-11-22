@@ -10,7 +10,7 @@
     <!-- Custom fonts -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
@@ -24,43 +24,48 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+
+    <!-- Navbar -->
     <div class="navbar-fixed">
       <nav class="green lighten-3">
         <div class="nav-wrapper">
           <a href="#" class="brand-logo">{OL}</a>
-          <a href="#" data-activates="side" class="button-collapse"><i class="material-icons">menu</i></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#" >Who I am</a></li>
-            <li><a href="#" >My Work Ideology</a></li>
-            <li><a href="#" >Web Development</a></li>
-            <li><a href="#" >Business Analysis</a></li>
-            <li><a href="#" >UNIX & Networks</a></li>
-            <li><a href="#" >What I did</a></li>
-            <li><a href="#" >Contact Me</a></li>
-          </ul>
-          <ul class="right">
-            <li><a class="blue-text text-lighten-3" href="#">EN</a></li>
-            <li><a class="blue-text text-lighten-3" href="#">FR</a></li>
-          </ul>
+
+          <!-- Side navigator -->
           <ul id="side" class="side-nav">
-            <li><a href="#" >Who I am</a></li>
-            <li><a href="#" >My Work Ideology</a></li>
-            <li><a href="#" >Web Development</a></li>
-            <li><a href="#" >Business Analysis</a></li>
-            <li><a href="#" >UNIX & Networks</a></li>
-            <li><a href="#" >What I did</a></li>
-            <li><a href="#" >Contact Me</a></li>
+            <li><a href="#about" >Who I am</a></li>
+            <li><a href="#ideology" >My Work Ideology</a></li>
+            <li><a href="#web-design" >Web Development</a></li>
+            <li><a href="#business-analysis" >Business Analysis</a></li>
+            <li><a href="#unix" >UNIX & Networks</a></li>
+            <li><a href="#contact" >Contact Me</a></li>
+          </ul>
+          <a href="#" data-activates="side" class="button-collapse"><i class="material-icons">menu</i></a>
+
+          <!-- Rest of the links -->
+          <ul class="right">
+            <li><a class="black-text text-lighten-3" href="#">EN</a></li>
+            <li><a class="black-text text-lighten-3" href="#">FR</a></li>
+          </ul>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#about" >Who I am</a></li>
+            <li><a href="#ideology" >My Work Ideology</a></li>
+            <li><a href="#web-design" >Web Development</a></li>
+            <li><a href="#business-analysis" >Business Analysis</a></li>
+            <li><a href="#unix" >UNIX & Networks</a></li>
+            <li><a href="#contact" >Contact Me</a></li>
           </ul>
         </div>
       </nav>
     </div>
 
+    <!-- Hero with introduction; should display in full page. -->
     <div id="about-hero" class="parallax-section parallax-container">
       <div class="section">
         <div class="container">
           <div class="row center">
-            <h1 class="hero-title">Olivier Lemelin</h1>
             <div class="col s12">
+              <h1 class="hero-title">Olivier Lemelin</h1>
               <p class="subtext">Passionate Software Developer, Security Analyst & Unix Geek;<br> Four Seasons Nature Lover.</p>
             </div>
           </div>
@@ -71,23 +76,24 @@
       </div>
     </div>
 
-    <section id="about" class="text-section">
+    <!-- 'Who I am' section -->
+    <section id="about-section" class="text-section">
       <div class="container">
         <div class="row center">
-          <h3 id="about-anchor">Who I am.</h3>
+          <h3 id="about">Who I am.</h3>
           <p class="flow-text">I am an IT freelancer and <a href="#">entrepreneur</a> based in the Montreal, Quebec area. I have a burning passion for software design, the Web and security.</p>
           <p class="flow-text">In my free time, you can usually find me cycling through the hills surrounding our beautiful island, or weaving code in thought tapestries in the small cafes downtown.</p>
-          <hr>
         </div>
       </div>
     </section>
 
+    <!-- Hero with Ideology -->
     <div id="ideology-hero" class="parallax-container">
       <div class="section">
         <div class="container">
-          <h3 class="header center">My Work Ideology</h3>
           <div class="row center">
             <div class="col s12">
+              <h3 id="ideology" class="header center">My Work Ideology</h3>
               <p class="flow-text">Leave no stones unturned.</p>
               <p class="flow-text">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
               <p class="flow-text">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
@@ -96,16 +102,18 @@
         </div>
       </div>
       <div class="parallax">
-        <img src="images/services.jpg" alt="">
+        <img src="images/mountain.jpeg" alt="">
       </div>
     </div>
 
-    <section id="services" class="text-section">
+    <!-- 'Services' section -->
+    <section id="services-section" class="text-section">
       <div class="container">
-        <h3 id="services-anchor">What I can do.</h3>
-        <h4>Web design and development</h4>
         <div class="row ">
+          <h3 id="services">What I can do.</h3>
+          <h4 id="web-design">Web design and development</h4>
 
+          <!-- Web application triptych -->
           <div class="col s12 m4">
             <div class="triptych ">
               <div class="center">
@@ -116,6 +124,7 @@
             </div>
           </div>
 
+          <!-- E-Commerce triptych -->
           <div class="col s12 m4">
             <div class="triptych ">
               <div class="center">
@@ -126,6 +135,7 @@
             </div>
           </div>
 
+          <!-- Cloud triptych -->
           <div class="col s12 m4">
             <div class="triptych ">
               <div class="center">
@@ -135,80 +145,83 @@
               <p class="flow-text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
             </div>
           </div>
-
         </div>
       </div>
+    </section>
 
-
-      <div id="ideology-hero" class="parallax-container">
-        <div class="section">
-          <div class="container">
-            <h4>Business Analysis and Solution development</h4>
-            <div class="row center">
-              <div class="col s12">
-                <div class="center large-icon">
-                  <i class="fa fa-briefcase green-text text-lighten-3" aria-hidden="true"></i>
-                  <h5>Business Analysis</h5>
-                  <p class="flow-text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
-                </div>
+    <!-- Business Analysis section -->
+    <div id="ba-hero" class="parallax-container">
+      <div class="section">
+        <div class="container">
+          <div class="row center">
+            <div class="col s12">
+              <h4 id="business-analysis">Business Analysis and Solution development</h4>
+              <div class="center large-icon">
+                <i class="fa fa-briefcase green-text text-lighten-3" aria-hidden="true"></i>
+                <h5>Business Analysis</h5>
+                <p class="flow-text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="parallax">
-          <img src="images/services.jpg" alt="">
-        </div>
       </div>
-
-
-      <h4>Unix & Networks</h4>
-
-      <div class="row ">
-        <div class="col s12 m4">
-          <div class="triptych ">
-            <div class="center">
-              <i class="fa fa-shopping-cart green-text text-lighten-3" aria-hidden="true"></i>
-            </div>
-            <h5>Server Programming</h5>
-            <p class="flow-text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="triptych ">
-            <div class="center">
-              <i class="fa fa-shopping-cart green-text text-lighten-3" aria-hidden="true"></i>
-            </div>
-            <h5>DevOps</h5>
-            <p class="flow-text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="triptych ">
-            <div class="center">
-              <i class="fa fa-shopping-cart green-text text-lighten-3" aria-hidden="true"></i>
-            </div>
-            <h5>Security</h5>
-            <p class="flow-text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
-          </div>
-        </div>
+      <div class="parallax">
+        <img src="images/services.jpg" alt="">
       </div>
-
     </div>
+
+    <!-- Unix Programming section -->
+    <section id="unix-networks" class="text-section">
+      <h4 id="unix">Unix & Networks</h4>
+
+      <div class="container">
+        <div class="row ">
+
+          <!-- Server Programming -->
+          <div class="col s12 m4">
+            <div class="triptych ">
+              <div class="center">
+                <i class="fa fa-server green-text text-lighten-3" aria-hidden="true"></i>
+              </div>
+              <h5>Server Programming</h5>
+              <p class="flow-text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+            </div>
+          </div>
+
+          <!-- DevOps -->
+          <div class="col s12 m4">
+            <div class="triptych ">
+              <div class="center">
+                <i class="fa fa-cogs green-text text-lighten-3" aria-hidden="true"></i>
+              </div>
+              <h5>DevOps</h5>
+              <p class="flow-text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+            </div>
+          </div>
+
+          <!-- Security -->
+          <div class="col s12 m4">
+            <div class="triptych ">
+              <div class="center">
+                <i class="fa fa-lock green-text text-lighten-3" aria-hidden="true"></i>
+              </div>
+              <h5>Security</h5>
+              <p class="flow-text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="contact" class="content">
-    </section>
-
+    <!-- Contact me - Footer -->
     <footer class="page-footer green lighten-2 white-text">
       <div class="container">
         <div class="row">
           <div class="col s12">
-            <h3 id="contact-anchor">Contact Me.</h3>
+            <h3 id="contact">Contact Me.</h3>
             <p>Feel like discussing?  Join me by the following means:</p>
             <ul>
-              <li><a href="mailto:lemelin.olivier@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> lemelin.olivier[at]gmail.com</a></li>
+              <li><a href="mailto:lemelin.olivier@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> lemelin.olivier@gmail.com</a></li>
               <li><a href="https://www.linkedin.com/in/olivierlemelin"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
               <li><a href="https://github.com/zante"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></li>
               <li><a href="https://bitbucket.org/zante/"><i class="fa fa-bitbucket" aria-hidden="true"></i> BitBucket</a></li>
@@ -217,8 +230,8 @@
         </div>
       </div>
       <div class="footer-copyright">
-        <div class="container">
-          ©2016 Olivier Lemelin - Powered by <a href="http://materializecss.com/">Materialize</a>, <a href="http://fontawesome.io/">Font Awesome</a> and <a href="https://jquery.com/">elbow grease.
+        <div class="container small-text">
+          ©2016 Olivier Lemelin - Powered by <a href="http://materializecss.com/">Materialize</a>, <a href="http://fontawesome.io/">Font Awesome</a> and <a href="https://jquery.com/">elbow grease</a>.
         </div>
       </div>
     </footer>

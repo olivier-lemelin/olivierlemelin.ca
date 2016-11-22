@@ -15,6 +15,7 @@ body {
   line-height: 2;
   font-size: 130%;
   font-family: 'Raleway', sans-serif;
+  font-weight: 200;
 }
 
 hr {
@@ -50,7 +51,7 @@ navbar {
 
 .parallax img {
   display: block;
-  filter: brightness(0.3);
+  filter: brightness(0.4);
 }
 
 .subtext {
@@ -77,6 +78,10 @@ navbar {
 
 /* Triptych */
 
+.triptych {
+  text-align: justify;
+}
+
 .triptych p {
   font-size: 80%;
 }
@@ -102,8 +107,10 @@ navbar {
 /* Footer */
 
 .small-text {
-  font-size: 50%;
+  font-size: 80%;
   color: gray;
 }
 
-
+footer a {
+  color: black;
+}
